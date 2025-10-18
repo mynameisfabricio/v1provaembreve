@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magazine Construções</title>
+    
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/responsive.css">
+    
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+
+    <header class="header-top-bar">
+        <div class="top-bar-content">
+            <div class="contact-info">
+                <a href="httpsasa://wa.me/5585912345678" target="_blank" class="top-link">
+                    <i data-feather="message-circle"></i>
+                    <span>(85) 91234-5678 (WhatsApp)</span>
+                </a>
+            </div>
+            <div class="admin-login">
+                <a href="login.html" class="top-link">
+                    <i data-feather="user"></i> Login do Admin
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <header class="header-main">
+        <div class="header-content">
+            <a href="index.html" class="logo">Magazine Construções</a>
+            
+            <div class="search-box">
+                 <input type="text" id="product-search" placeholder="O que você está construindo hoje?">
+                 <button class="search-btn">
+                    <i data-feather="search"></i>
+                </button>
+            </div>
+
+            <div class="header-actions">
+                <a href="carrinho.html" class="action-link">
+                    <i data-feather="shopping-cart"></i>
+                    <span>Meu Carrinho</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    
+    <nav class="category-nav" id="category-nav">
+        <div class="nav-content">
+            <button class="menu-toggle" id="menu-toggle">
+                <i data-feather="menu"></i>
+            </button>
+            
+            <div class="nav-links" id="nav-links">
+                <a href="produtos.html?categoria=cimento-e-argamassa" class="nav-link">Cimento e Argamassa</a>
+                <a href="produtos.html?categoria=pisos-e-revestimentos" class="nav-link">Pisos e Revestimentos</a>
+                <a href="produtos.html?categoria=ferramentas" class="nav-link">Ferramentas</a>
+                <a href="produtos.html?categoria=hidraulica" class="nav-link">Hidráulica</a>
+                <a href="produtos.html?categoria=eletrica" class="nav-link">Elétrica</a>
+                <a href="produtos.html?categoria=madeiras" class="nav-link">Madeiras</a>
+                <a href="produtos.html?categoria=tintas" class="nav-link">Tintas</a>
+            </div>
+        </div>
+    </nav>
+    <main class="main-content">
+        
+        <section class="hero-banner">
+            <div class="banner-content">
+                <p>É A SUA PRIMEIRA COMPRA?</p>
+                <h1>Use o cupom e ganhe <span>20% OFF</span></h1>
+                <p style="font-size: 1.1em; margin-top: -10px; margin-bottom: 20px;">Válido para todos os produtos da loja!</p>
+                <button class="btn-coupon" id="btn-pegar-cupom">Pegar Cupom</button> 
+            </div>
+        </section>
+        
+        <section class="product-section">
+            <h2>Produtos em Destaque</h2>
+            
+            <div class="product-grid">
+                <p class="loading-products">Carregando produtos do banco de dados...</p>
+            </div>
+        </section>
+
+    </main>
+    
+    <footer class="site-footer">
+        <div class="footer-content">
+            
+            <div class="footer-column">
+                <h4>Sobre Nós</h4>
+                <p class="footer-description">
+                    Nossa construção já está há 2 anos no mercado, oferecendo os melhores
+                    produtos com preço justo. Qualidade e confiança do alicerce ao acabamento.
+                </p>
+            </div>
+            
+            <div class="footer-column">
+                <h4>Atendimento</h4>
+                <p>Av. Bezerra de Menezes, 1000<br>Fortaleza - CE, 60325-000</p>
+                <a href="tel:+558530001234">(85) 3000-1234</a>
+                <a href="httpsasa://wa.me/5585912345678" target="_blank">(85) 91234-5678 (WhatsApp)</a>
+                <p>seg. a sex. das 8h às 18h</p>
+            </div>
+            
+            <div class="footer-column">
+                <h4>Informações</h4>
+                <a href="#">Nossas Lojas</a>
+                <a href="#">Trabalhe Conosco</a>
+                <a href="#">Política de Privacidade</a>
+            </div>
+            
+            <div class="footer-column">
+                <h4>Siga-nos</h4>
+                <div class="social-icons">
+                    <a href="#" class="social-link" title="Instagram"><i data-feather="instagram"></i></a>
+                    <a href="#" class="social-link" title="Facebook"><i data-feather="facebook"></i></a>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="copyright-bar">
+            <p>
+                Todos os direitos reservados. Página feita por Fabrício, Beatriz, Marcelo, Kevin e Emanuel para a prova.
+            </p>
+        </div>
+    </footer>
+    
+    <script src="../static/js/main.js"></script>
+</body>
+</html>
